@@ -1,0 +1,13 @@
+interface:
+  display_name: 自适应手帐相册
+  short_description: 按色调分类并保留原始人像，自动生成完整手帐风整册相册
+  default_prompt: 使用 $make-photo-album-zine 将我上传的照片按色调分类，生成保留原始人像的手帐风整册相册。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
